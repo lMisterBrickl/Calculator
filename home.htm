@@ -1,0 +1,28 @@
+<html>
+<head>
+	<title>Marius Pap</title>
+	<link rel="stylesheet" type="text/css" href="style/style.css" />
+	<script type="text/javascript" src="scripts/script.js">
+</script>
+</head>
+
+<body id="home_body">
+	<h1>Calculator</h1> <br>
+	<div id="input">
+	<input type="number" name="first_number" id="first_number" />
+	<input type="number" name="second_number" id="second_number"/> <br> <br>
+	</div>
+
+	<div id="buttons">
+	<button onclick="sum(first_number.value, second_number.value)">+</button>
+	<button onclick="sub(first_number.value, second_number.value)">-</button>
+	<button onclick="mul(first_number.value, second_number.value)">x</button>
+	<button onclick="div(first_number.value, second_number.value)">/</button> <br> <br>
+	</div>
+
+	<div id="res">
+	<h2 id="result_text">Result:</h2>
+	<h3 id="result"></h3>
+	</div>
+</body>
+</html>

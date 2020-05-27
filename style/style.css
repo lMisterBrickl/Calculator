@@ -1,0 +1,86 @@
+#logo
+{
+	display: inline;
+	color: white;
+	font-size: 45px;
+	font-family: Arial, sans-serif;
+	-webkit-text-stroke: 2px black;
+}
+
+.menu
+{
+	color: white;
+	font-size: 35px;
+	text-decoration: none;
+	padding: 20px;
+}
+
+a.menu:hover
+{
+	color: black;
+	font-size: 45px;
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+h1
+{
+	text-align: center;
+	font-size: 45px;
+	color: white;
+	font-family: Arial, sans-serif;
+	-webkit-text-stroke: 2px black;
+	text-shadow: 3px 2px black;
+}
+
+#input
+{
+	display: table;
+  	margin: 0 auto;
+}
+
+#first_number, #second_number
+{
+	text-align: center;
+	font-size: 45px;
+	width: 200px;
+	height: 150px;
+	margin: 25px;
+  	border: 2px solid black;
+ 	border-radius: 10%;
+ }
+
+button
+{
+	padding: 15px 25px;  
+	font-size: 30px;
+    border: none;
+    border-radius: 10%;
+}
+button:hover
+{
+	background-color: darkolivegreen;
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19); 
+}
+#buttons
+{
+	display: table;
+  	margin: 0 auto;
+}
+
+#res
+{
+ 	font-size: 20px;
+ 	padding: 10px;
+ 	color: white;
+	display: table;
+  	margin: 0 auto;
+  	text-shadow: 3px 2px black;
+}
+
+#home_body
+{
+	background-image: url("../bb.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+  	background-size: 100% 102%;
+}
